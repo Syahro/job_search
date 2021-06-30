@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:job_search/pages/home_page.dart';
 import 'package:job_search/theme.dart';
 
 class LandingPage extends StatelessWidget {
@@ -39,7 +40,11 @@ class LandingPage extends StatelessWidget {
               width: 141,
               height: 47,
               child: TextButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context) {
+                    return HomePage();
+                  }));
+                },
                 child: Text(
                   'Get Started',
                   style: GoogleFonts.nunito(
