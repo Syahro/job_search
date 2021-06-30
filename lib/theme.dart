@@ -17,6 +17,6 @@ TextStyle titleLandingTextStyle = GoogleFonts.nunito(
 
 TextStyle subTitleLandingTextStyle = GoogleFonts.nunito(
   fontSize: 18,
-  fontWeight: FontWeight.w400,
+  fontWeight: FontWeight.w300,
   color: blueColor,
 );
